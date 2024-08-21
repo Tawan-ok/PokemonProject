@@ -1,0 +1,129 @@
+/* src/components/PokemonDetail.module.css */
+
+.pokemonDetail {
+  background-color: #7fac71;
+  background-image: url('../../assets/pokémon-pixel-art-green-grass-wallpaper.jpg');
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pokemonDetail img {
+  width: 300px;
+  height: 300px;
+}
+
+.pokemonAbilities {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pokemonAbilities li {
+  font-size: 16px;
+}
+
+.pokemonTypeSpan {
+  font-size: 20px;
+  border: solid black 2px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.typeNormal {
+  background-color: #a8a878; /* Normal */
+}
+
+.typeGrass {
+  background-color: #78c850; /* Grass */
+}
+
+.typeFire {
+  background-color: #f08030; /* Fire */
+}
+
+.typeWater {
+  background-color: #6890f0; /* Water */
+}
+
+.typeElectric {
+  background-color: #f8d030; /* Electric */
+}
+
+.typeRock {
+  background-color: #b8a038; /* Rock */
+}
+
+.typeFighting {
+  background-color: #c03028; /* Fighting */
+}
+
+.typePsychic {
+  background-color: #f85888; /* Psychic */
+}
+
+.typeGhost {
+  background-color: #705898; /* Ghost */
+}
+
+.typePoison {
+  background-color: #a040a0; /* Poison */
+}
+
+.typeFlying {
+  background-color: #a890f0; /* Flying */
+}
+
+.typeGround {
+  background-color: #e0c068; /* Ground */
+}
+
+.typeDragon {
+  background-color: #7038f8; /* Dragon */
+}
+
+.typeIce {
+  background-color: #98d8d8; /* Ice */
+}
+
+.typeBug {
+  background-color: #a8b820; /* Bug */
+}
+
+.typeSteel {
+  background-color: #b8b8d0; /* Steel */
+}
+
+.typeDark {
+  background-color: #705848; /* Dark */
+}
+
+.typeFairy {
+  background-color: #ee99ac; /* Fairy */
+}
+
+.typeShadow {
+  background-color: #403a3a; /* Shadow */
+}
+
+.typeUnknown {
+  background-color: #68a090; /* ??? */
+}
+
+.typePhysical {
+  background-color: #e08040; /* Physical */
+}
+
+.typeSpecial {
+  background-color: #6890f0; /* Special */
+}
+
+.typeStatus {
+  background-color: #a8a878; /* Status */
+}
+
+.typeDefault {
+  background-color: gray; /* Default */
+}

@@ -1,0 +1,192 @@
+/* src/components/PokemonBar.module.css */
+
+.pokemonItem {
+  background-color: #7fac71;
+  background-image: url('../../assets/pokémon-pixel-art-green-grass-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: 5000px 1000px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+/* //1800px */
+.pokemonCharacters {
+  width: 400px;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: solid black 2px;
+}
+
+.pokemonCharacters img {
+  width: 200px;
+  height: 200px;
+}
+
+.pokemonTypes {
+  display: flex;
+}
+
+.pokemonType {
+  font-size: 20px;
+  border: solid black 2px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 5px 10px;
+}
+.inputBox input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 300px;
+  border-radius: 25px;
+}
+
+.inputBox {
+  position: relative; /* Set relative positioning on the container */
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.searchIcon {
+  position: absolute; /* Absolute positioning to place the icon inside the input */
+  left: 10px; /* Adjust this to place the icon closer or further from the left edge */
+  top: 50%; /* Vertically center the icon */
+  transform: translateY(-50%); /* Adjust for vertical centering */
+  width: 20px;
+  height: 20px;
+  pointer-events: none; /* Make sure the icon doesn't block input interaction */
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px 10px 10px 40px; /* Add padding to the left for the icon */
+  border-radius: 25px;
+  border: solid 2px black;
+  font-size: 16px;
+}
+
+.notFoundContainer img {
+  width: 500px;
+  height: 500px;
+  margin-top: 1rem;
+}
+
+.notFound {
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.typeDropdown {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.typeNormal {
+  background-color: #a8a878; /* Normal */
+}
+
+.typeGrass {
+  background-color: #78c850; /* Grass */
+}
+
+.typeFire {
+  background-color: #f08030; /* Fire */
+}
+
+.typeWater {
+  background-color: #6890f0; /* Water */
+}
+
+.typeElectric {
+  background-color: #f8d030; /* Electric */
+}
+
+.typeRock {
+  background-color: #b8a038; /* Rock */
+}
+
+.typeFighting {
+  background-color: #c03028; /* Fighting */
+}
+
+.typePsychic {
+  background-color: #f85888; /* Psychic */
+}
+
+.typeGhost {
+  background-color: #705898; /* Ghost */
+}
+
+.typePoison {
+  background-color: #a040a0; /* Poison */
+}
+
+.typeFlying {
+  background-color: #a890f0; /* Flying */
+}
+
+.typeGround {
+  background-color: #e0c068; /* Ground */
+}
+
+.typeDragon {
+  background-color: #7038f8; /* Dragon */
+}
+
+.typeIce {
+  background-color: #98d8d8; /* Ice */
+}
+
+.typeBug {
+  background-color: #a8b820; /* Bug */
+}
+
+.typeSteel {
+  background-color: #b8b8d0; /* Steel */
+}
+
+.typeDark {
+  background-color: #705848; /* Dark */
+}
+
+.typeFairy {
+  background-color: #ee99ac; /* Fairy */
+}
+
+.typeShadow {
+  background-color: #403a3a; /* Shadow */
+}
+
+.typeUnknown {
+  background-color: #68a090; /* ??? */
+}
+
+.typePhysical {
+  background-color: #e08040; /* Physical */
+}
+
+.typeSpecial {
+  background-color: #6890f0; /* Special */
+}
+
+.typeStatus {
+  background-color: #a8a878; /* Status */
+}
+
+.typeDefault {
+  background-color: gray; /* Default */
+}

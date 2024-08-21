@@ -1,0 +1,12 @@
+@import '../../styles/palette.module.scss';
+
+.root {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.progress {
+  color: $primary;
+}

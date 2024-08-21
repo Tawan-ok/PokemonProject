@@ -1,0 +1,22 @@
+.appbarNavigation {
+  margin: 0 10px;
+}
+
+.projectBtn {
+  min-width: 120px;
+  max-height: 80px;
+  font-weight: bold !important;
+  color: white !important;
+  margin-right: 10px !important;
+  justify-content: flex-start !important;
+  margin-left: 5px;
+}
+
+.projectLabel {
+  padding-top: 10px;
+}
+.buttonNavigation {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
